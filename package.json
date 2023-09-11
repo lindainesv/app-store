@@ -1,0 +1,18 @@
+{
+  "name": "app-store",
+  "version": "1.0.0",
+  "description": "api-store",
+  "author": "lindainesv",
+  "license": "ISC",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
+  },
+  "scripts": {
+    "dev:local": "npm run dev --prefix backend",
+    "lint": "npm run lint --prefix __tests__ && npm run lint --prefix backend",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  }
+}
