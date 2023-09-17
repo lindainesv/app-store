@@ -1,4 +1,4 @@
-const { salesService } = require('../services');
+const { salesService } = require('../src/services');
 
 const listSales = async (_req, res) => {
   const { message } = await salesService.findAll();

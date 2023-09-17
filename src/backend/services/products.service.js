@@ -1,4 +1,4 @@
-const { productsModel } = require('../models');
+const { productsModel } = require('../../models');
 // const schema = require('./validations/validationsInputValues');
 
 const findAll = async () => {
