@@ -20,11 +20,11 @@
     "migration": "node -e \"require('./__tests__/cypress/utils/db').runMigration()\"",
     "seed": "node -e \"require('./__tests__/cypress/utils/db').runSeed()\"",
     "db:reset": "npm run migration && npm run seed",
-    "postinstall": "npm install --prefix __tests__ && npm install --prefix backend",
-    "start": "node src/index.js"
+    "postinstall": "npm install --prefix __tests__ && npm install --prefix backend"
   },
   "dependencies": {
     "express": "4.18.2",
+    "joi": "^17.10.2",
     "mysql2": "3.6.1"
   }
 }
