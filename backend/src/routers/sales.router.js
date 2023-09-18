@@ -1,7 +1,7 @@
 const Router = require('express');
-const { salesController } = require('../controllers');
-const { validateSales } = require('../middlewares/validateSales');
-const quantityValidation = require('../middlewares/quantityValidation');
+const { salesController } = require('../src/controllers');
+const { validateSales } = require('../src/middlewares/validateSales');
+const quantityValidation = require('../src/middlewares/quantityValidation');
 
 const router = Router();
 
